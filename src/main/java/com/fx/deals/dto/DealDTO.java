@@ -56,7 +56,6 @@ public class DealDTO {
         return amount;
     }
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
